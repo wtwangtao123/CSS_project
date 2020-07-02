@@ -1,0 +1,113 @@
+ .width_1 {
+	width: 20px;
+}
+.font {
+	font-size: 0.8rem;
+	word-spacing: 12px;
+}
+	
+.mouse:hover {
+	 border-bottom: 2px solid #0064D2;
+ }
+ .background-image {
+	 background-image: url(../img/top_key_5_en.png);
+	 background-repeat: no-repeat;
+	 width: 1440px;
+	 height: 400px;
+	 background-position: -146px 0;
+ }
+.width_2 {
+	width: 690px;
+	height: 344px;
+}
+.p_relative {
+	position: relative;
+	float: left;
+	left: -10%;
+}
+.p_absolute {
+	position: absolute;
+	top: 240px;
+	left: 5px;
+}
+.width_height {
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+}
+.background-image div + div {
+	margin-left: 50px;
+}
+
+.footer_background {
+	background-image: url(../img/icon-balloon.png);
+	background-repeat: no-repeat;
+	background-size: 28px;
+	background-position: 50px 14px;
+}
+
+.footer_background_1 {
+	background-image: url(../img/icon-info.png);
+	background-repeat: no-repeat;
+	background-size: 28px;
+	background-position: 50px 14px;
+}
+
+.footer_background_2 {
+	background-image: url(../img/icon-cart.png);
+	background-repeat: no-repeat;
+	background-size: 28px;
+	background-position: 50px 14px;
+}
+
+.footer_font {
+	font-size: 16px;
+}
+
+.footer_height {
+	height: 32px;
+	font-size: 12px;
+}
+
+.footer_color {
+	background-color: #D8EBF7;
+}
+
+.foot_image_2 {
+	width: 12px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.font_size_1 {
+	font-size: 14px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+	content: "|";
+}
+
+.font_size_2 {
+	font-size: 10px;
+}
+
+.breadcrumb {
+	background-color: white;
+}
+
+.my_border {
+	border-top: 1px solid #D3D4D4;
+}
+
+.my_set_header {
+	width: 100%;
+	height: 190px;
+}
+
+.my_set_footer {
+	width: 100%;
+	height: 670px;
+}
+

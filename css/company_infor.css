@@ -1,0 +1,14 @@
+.my_pageHead_height {
+	height: 65px;
+	border-bottom: 1px solid #D6D6D6;
+	padding: 0 64px;
+}
+.my_pageHead_font {
+	padding-top: 23px;
+	border-bottom: 2px solid #0000FF;
+	font:  bold 13px "宋体";
+	width: 85px;
+}
+.my_ul_bgc {
+	background-color: #EDF7FD;
+}

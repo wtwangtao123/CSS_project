@@ -1,0 +1,46 @@
+.my_border-bottom {
+	border-bottom: 2px solid #000000;
+	border-radius: 2px;
+	width: 9rem;
+}
+
+.my_height {
+	height: 200px;
+	position: relative;
+}
+.my_position {
+	bottom: 40px;
+	position:absolute
+}
+.my_img_height {
+	height: 170px;
+}
+.h_1 {
+	height: 500px;
+}
+.my_date_height {
+	height: 30px;
+}
+.my_data_height {
+	height: 90px;
+}
+.my_btn_height {
+	height: 195px;
+}
+.my_btn_padding_1 {
+	padding-top: 160px;
+}
+.my_btn_padding_2 {
+	padding-top: 50px;
+}
+.my_img_set {
+	width: 2.3rem;
+	margin-left: 110px;
+	margin-bottom: 18px;
+}
+.my_img_set_2 {
+	margin-left: 165px;
+}
+.my_img_set_3 {
+	margin-left: 160px;
+}

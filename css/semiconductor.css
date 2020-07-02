@@ -1,0 +1,41 @@
+@media (min-width: 576px) {
+	.border-right {
+		border-right: 0 !important;
+	}
+	.w_9 {
+		width: 100%;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.border-right {
+		border-right: 1px solid #B7C6D0 !important;
+	}
+	.w_9 {
+		width: 350px;
+	}
+	.h_1 {
+		height: 460px;
+		}
+	.my_position {
+		position: absolute;
+		bottom: 0px;
+	}
+}
+.w_8 {
+	width: 848px !important;
+	height: 480px !important;
+}
+.my_height {
+	height: 310px;
+}
+.my_width_2 {
+	width: 0.9rem;
+}
+.my_margin {
+	margin-bottom: 0.2rem;
+}
+.my_lineheight_2 {
+	line-height: 13px;
+}

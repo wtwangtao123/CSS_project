@@ -1,0 +1,48 @@
+.body_img {
+	background-image: url(../img/bg_image.png);
+}
+.w_1 {
+	width: 7rem;
+}
+.w_2 {
+	width: 10rem;
+}
+.btn-outline-light:hover {
+	background-color: transparent;
+}
+.w_3 {
+	width: 2rem;
+	position: absolute;
+	bottom: 38px;
+	right: 16px;
+}
+.w_4 {
+	width: 13rem;
+	line-height: 2.5rem;
+}
+.w_3:hover {
+	border-radius: 50%;
+	background-color: #007bff;
+	
+}
+.my_lineheight {
+	line-height: 34px;
+}
+.w_5 {
+	height: 3rem;
+}
+.w_7 {
+	width: 10rem;
+	height: 3rem;
+}
+.my_bgc_1 {
+	background-color: #EDF7FD;
+}
+.w_6 {
+	width: 1.25rem;
+	height: 1.25rem;
+	
+}
+.my_lineheight_1 {
+	line-height: 16px;
+}
