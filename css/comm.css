@@ -1,14 +1,53 @@
  .width_1 {
 	width: 20px;
 }
+
+.my_margin_left {
+	margin-left: 58px;
+}
+
 .font {
 	font-size: 0.8rem;
 	word-spacing: 12px;
 }
-	
-.mouse:hover {
-	 border-bottom: 2px solid #0064D2;
- }
+.underline>.breadcrumb li:nth-child(odd),
+.box>.underline_0 li {
+	width: auto;
+	height: 24px;
+	position: relative;
+}	
+.underline>.breadcrumb li:nth-child(odd):after,
+.box>.underline_0 li:after {
+	content: "";
+	width: 0px;
+	height: 2px;
+	background-color: blue;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transition: all .8s;
+}
+.underline>.breadcrumb li:nth-child(odd):hover:after,
+.box>.underline_0 li:hover:after {
+	width: 100%;
+	left: 0;
+}
+.underline>.breadcrumb li:nth-child(even) {
+	width: 1px;
+	height: 25px;
+	background-color: #D6D6D6;
+	margin: 0 15px;	
+}
+.box>.underline_0 li:nth-child(even) {
+	width: 1px;
+	height: 25px;
+
+	margin: 0 15px;
+}
+/* #underline>.breadcrumb li:nth-child(even):after {
+	content: "|";
+} */
+
  .background-image {
 	 background-image: url(../img/top_key_5_en.png);
 	 background-repeat: no-repeat;
@@ -75,7 +114,10 @@
 
 .foot_image_2 {
 	width: 12px;
+	position: relative;
 }
+
+
 
 a:hover {
 	text-decoration: none;
@@ -85,9 +127,7 @@ a:hover {
 	font-size: 14px;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
-	content: "|";
-}
+
 
 .font_size_2 {
 	font-size: 10px;
